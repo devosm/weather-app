@@ -26,6 +26,12 @@ body {
     margin: 10px;
 }
 
+textarea, input { 
+    outline: none;
+    border-style: none;
+}
+
+
 .weather-card {
     display: flex;
     flex-direction: column;
