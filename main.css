@@ -17,13 +17,14 @@ body {
     margin: 15px;
     border-style: solid;
     border-radius: 15px;
-    border-color: black;
+    border-color: white;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
 .weather-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
     width: 400px;
@@ -47,11 +48,12 @@ body {
     align-self: flex-start;
     font-family: roboto;
     font-size: 96px;
-    margin: 30px;
+    margin: 50px;
 }
 
 .date {
     font-family: roboto;
     font-size: 28px;
     font-weight: bold;
+    margin: 50px;
 }
